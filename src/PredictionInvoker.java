@@ -1,9 +1,33 @@
-public class PredictionInvoker {
+import java.util.List;
+
+public class PredictionInvoker implements Command{
+
+    // eaxmple: List<Customer> subscribers = new ArrayList<>();
 
 
 
+    FetchDataCommand fdc = new FetchDataCommand();
+    PredictionCommand pc = new PredictionCommand();
+    SaveResultsCommand src = new SaveResultsCommand();
+
+    public void addCommand() {
+        // add commands to the list of commands
 
 
+    }
+    public void executeCommands(){
+
+    }
+
+    public PredictionInvoker() {
+
+    }
+
+
+    @Override
+    public void execute() {
+
+    }
 }
 
 /*
