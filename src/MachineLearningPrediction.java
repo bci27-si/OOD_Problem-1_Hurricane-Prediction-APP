@@ -2,24 +2,23 @@ public class MachineLearningPrediction
         extends HurricanePredictionTemplate implements MachineLearningPredictionModel {
     @Override
     public void fetchData() {
-        System.out.println("Fetching data...");
+        System.out.println("Fetching ML data...");
     }
-
+// ML Means Machine Learning
     @Override
     public void preprocessData() {
-        System.out.println("Preprocessing data...");
+        System.out.println("Preprocessing ML data...");
     }
 
     @Override
     public void applyPredictionModel() {
-        System.out.println("Applying prediction...");
+        System.out.println("Applying ML prediction...");
     }
 
     @Override
     public void postProcessResults() {
-        System.out.println("Finished applying prediction...");
+        System.out.println("Finished applying ML prediction...");
     }
-
 
     // probably:
     /**

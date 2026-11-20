@@ -1,11 +1,11 @@
 public class StatisticalPrediction
         extends HurricanePredictionTemplate implements MachineLearningPredictionModel {
 
-
+    // add commands to each from the comadn pattern
     @Override
     public void fetchData() {
         System.out.println("Fetching data..." );
-        fetchDataCommand();
+
     }
 
     @Override

@@ -11,6 +11,6 @@ public class SaveResultsCommand implements Command {
 
     @Override
     public void execute() {
-
+        SaveResults();
     }
 }

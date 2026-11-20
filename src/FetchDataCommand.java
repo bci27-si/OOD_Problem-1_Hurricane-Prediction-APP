@@ -4,11 +4,11 @@ public class FetchDataCommand implements Command {
     public void fetchData() {
         System.out.println("Command for Fetching data...");
 
-
     }
 
     @Override
     public void execute() {
-
+        fetchData();
     }
 }
+
