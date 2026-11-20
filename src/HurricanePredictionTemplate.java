@@ -1,22 +1,21 @@
 public abstract class HurricanePredictionTemplate {
 
+    public void predictHurricane(){
+        fetchData();
+        preprocessData();
+        applyPredictionModel();
+        postProcessResults();
+    }
+
 
     // not sure which method is abstract yet.
 
-    public void fetchData(){
+    public abstract void fetchData();
 
-    }
+    public abstract void preprocessData();
 
-    public void preprocessData(){
+    public abstract void applyPredictionModel();
 
-    }
-
-    public void applyPredictionModel(){
-
-    }
-
-    public void postProcessResults(){
-
-    }
+    public abstract void postProcessResults();
 
 }
