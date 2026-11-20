@@ -5,8 +5,6 @@ public class SaveResultsCommand implements Command {
 
         // use io to save to  file. prob spreadsheet
         System.out.println("Command for Saving results to file...");
-
-
     }
 
     @Override

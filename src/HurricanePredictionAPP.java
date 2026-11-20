@@ -10,7 +10,16 @@ public class HurricanePredictionAPP {
         ml.predictHurricane();
 
 
+        // not sure if imsupposed to ad the commnads to the list here, but :
+
+        PredictionInvoker p = new PredictionInvoker();
+
+        p.addCommand(Command fetchData);
+
 
     }
 
 }
+
+
+
