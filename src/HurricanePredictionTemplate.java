@@ -7,8 +7,7 @@ public abstract class HurricanePredictionTemplate {
         postProcessResults();
     }
 
-
-    // not sure which method is abstract yet.
+    // abstract methods... apparently only using this with print statements
 
     public abstract void fetchData();
 
