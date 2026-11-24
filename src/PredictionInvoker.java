@@ -2,10 +2,17 @@ import java.util.List;
 
 public class PredictionInvoker{
 
+    private Command[] commands;
+
+    public PredictionInvoker(int commandCount) {
+        commands = new Command[commandCount];
+
+    }
+
     // eaxmple: List<Customer> subscribers = new ArrayList<>();
-    List<Command> commands;
+    //List<Command> commands;
 // Because the commands are using the command interface,
-    public void addCommand(Command command) {
+    public void addCommand(int commandCount, Command command) {
         // add commands to the list of commands
         commands.add(command);
 
@@ -15,10 +22,6 @@ public class PredictionInvoker{
         for (Command command : commands){
             command.execute();
         }
-
-    }
-
-    public PredictionInvoker() {
 
     }
 

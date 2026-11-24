@@ -1,14 +1,14 @@
 public class PredictionCommand implements Command {
 
-    //run a prediction model. probably either Statystycal, or Machine Learning
-    public void prediction() {
+    private Predict fetch;
 
-        System.out.println("Prediction command");
+    public PredictionCommand(Predict fetch) {
+        this.fetch = fetch;
     }
 
     @Override
     public void execute() {
-        prediction();
+        fetch.prediction();
     }
 }
 

@@ -1,14 +1,16 @@
 public class SaveResultsCommand implements Command {
 
-    // save results to:
-    public void SaveResults() {
 
-        // use io to save to  file. prob spreadsheet
-        System.out.println("Command for Saving results to file...");
+    // this is a concrete command class which stores the variable of the reciever [class containing the actual logic] and executes the command
+    private SaveResults save;
+
+    public SaveResultsCommand(SaveResults save) {
+
+        this.save = save;
     }
 
     @Override
     public void execute() {
-        SaveResults();
+        save.SaveResults();
     }
 }

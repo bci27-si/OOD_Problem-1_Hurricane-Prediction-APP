@@ -1,14 +1,15 @@
 public class FetchDataCommand implements Command {
 
-    // fethc the data, not sure where from yet
-    public void fetchData() {
-        System.out.println("Command for Fetching data...");
 
+    private FetchData fetch;
+
+    public FetchDataCommand(FetchData fetch) {
+        this.fetch = fetch;
     }
 
     @Override
     public void execute() {
-        fetchData();
+        fetch.fetchData();
     }
 }
 

@@ -1,5 +1,6 @@
 public abstract class HurricanePredictionTemplate {
-
+// should i have this class call the command add and execute ?
+// connects parts together. would place in the pred hurricane method
 
     public void predictHurricane(){
         fetchData();
