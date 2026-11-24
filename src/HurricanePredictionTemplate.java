@@ -1,5 +1,6 @@
 public abstract class HurricanePredictionTemplate {
 
+
     public void predictHurricane(){
         fetchData();
         preprocessData();

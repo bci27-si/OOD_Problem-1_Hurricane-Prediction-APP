@@ -1,5 +1,5 @@
 public class MachineLearningPrediction
-        extends HurricanePredictionTemplate implements MachineLearningPredictionModel {
+        extends HurricanePredictionTemplate {
     @Override
     public void fetchData() {
         System.out.println("Fetching ML data...");
@@ -8,6 +8,7 @@ public class MachineLearningPrediction
     @Override
     public void preprocessData() {
         System.out.println("Preprocessing ML data...");
+
     }
 
     @Override

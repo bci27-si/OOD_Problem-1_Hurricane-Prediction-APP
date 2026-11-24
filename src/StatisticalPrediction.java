@@ -1,5 +1,5 @@
 public class StatisticalPrediction
-        extends HurricanePredictionTemplate implements MachineLearningPredictionModel {
+        extends HurricanePredictionTemplate {
 
     // add commands to each from the comadn pattern
     @Override

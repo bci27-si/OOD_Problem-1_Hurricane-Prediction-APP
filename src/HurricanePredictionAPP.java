@@ -3,8 +3,9 @@ public class HurricanePredictionAPP {
     public static void main(String[] args) {
         // create teh output for ML and analog / Statystical prediction models using the template patttern
 
-        StatisticalPrediction s = new StatisticalPrediction();
-        MachineLearningPrediction ml = new MachineLearningPrediction();
+        HurricanePredictionTemplate s = new StatisticalPrediction();
+        HurricanePredictionTemplate ml = new MachineLearningPrediction();
+    // fixed. this actually is the whole purpose of using template pattern
 
         s.predictHurricane();
         ml.predictHurricane();
@@ -13,8 +14,8 @@ public class HurricanePredictionAPP {
         // not sure if imsupposed to ad the commnads to the list here, but :
 
         PredictionInvoker p = new PredictionInvoker();
-
-        p.addCommand(Command fetchData);
+        //FIXME
+        //p.addCommand(Command fetchData);
 
 
     }
