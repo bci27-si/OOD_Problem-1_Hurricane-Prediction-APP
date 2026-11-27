@@ -1,4 +1,3 @@
-import java.util.List;
 
 public class PredictionInvoker{
 
@@ -12,7 +11,7 @@ public class PredictionInvoker{
     // eaxmple: List<Customer> subscribers = new ArrayList<>();
     //List<Command> commands;
 // Because the commands are using the command interface,
-    public void addCommand(int commandCount, Command command) {
+    public void addCommand( Command command) {
         // add commands to the list of commands
         commands.add(command);
 

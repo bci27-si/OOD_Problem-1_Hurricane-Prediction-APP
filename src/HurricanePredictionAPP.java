@@ -19,7 +19,7 @@ public class HurricanePredictionAPP {
 
  */
 
-        PredictionInvoker p = new PredictionInvoker();
+        //PredictionInvoker p = new PredictionInvoker();
         //FIXME
         //p.addCommand(Command fetchData);
 
@@ -27,6 +27,3 @@ public class HurricanePredictionAPP {
     }
 
 }
-
-
-
