@@ -7,26 +7,10 @@ public class HurricanePredictionAPP {
         HurricanePredictionTemplate ml = new MachineLearningPrediction();
     // fixed. this actually is the whole purpose of using template pattern
 
-        // settig up recivere classes
-        FetchData fd = new FetchData();
-        Predict predict = new Predict();
-        SaveResults sr = new SaveResults();
-
-        // adding commands to list in invoker
-        PredictionInvoker i = new PredictionInvoker();
-        i.addCommand(new FetchDataCommand(fd));
-        i.addCommand(new PredictionCommand(predict));
-        i.addCommand(new SaveResultsCommand(sr));
-
-        // executing commands in invoker class
-        i.executeCommands();
-
-        // this is wrong
         s.predictHurricane();
         ml.predictHurricane();
 
-    }
-}
+
         // not sure if I'm supposed to and the commands to the list here, but :
 /*
         well, technically the actual commands should be per template,
@@ -35,6 +19,14 @@ public class HurricanePredictionAPP {
 
  */
 
-        //PredictionInvoker p = new PredictionInvoker();
+        PredictionInvoker p = new PredictionInvoker();
         //FIXME
         //p.addCommand(Command fetchData);
+
+
+    }
+
+}
+
+
+
