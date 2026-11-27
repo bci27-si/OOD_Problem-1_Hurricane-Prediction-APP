@@ -4,21 +4,21 @@ public class StatisticalPrediction
     // add commands to each from the comadn pattern
     @Override
     public void fetchData() {
-        System.out.println("Fetching statistical data..." );
+        System.out.println("STAT TEMPLATE; Fetching statistical data..." );
     }
 
     @Override
     public void preprocessData() {
-        System.out.println("Preprocessing statistical data..." );
+        System.out.println("STAT TEMPLATE; Preprocessing statistical data..." );
     }
 
     @Override
     public void applyPredictionModel() {
-        System.out.println("Applying Statistical prediction..." );
+        System.out.println("STAT TEMPLATE; Applying Statistical prediction..." );
     }
 
     @Override
     public void postProcessResults() {
-        System.out.println("Post processing statistical results..." );
+        System.out.println("STAT TEMPLATE; Post processing statistical results..." );
     }
 }

@@ -1,18 +1,14 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class PredictionInvoker{
 
-    private Command[] commands;
-
-    public PredictionInvoker(int commandCount) {
-        commands = new Command[commandCount];
-
-    }
+    private List<Command> commands = new ArrayList<>();
 
     // eaxmple: List<Customer> subscribers = new ArrayList<>();
     //List<Command> commands;
 // Because the commands are using the command interface,
-    public void addCommand(int commandCount, Command command) {
+    public void addCommand( Command command) {
         // add commands to the list of commands
         commands.add(command);
 

@@ -4,7 +4,7 @@ public class Predict {
     //run a prediction model. probably either Statystycal, or Machine Learning
     public void prediction() {
 
-        System.out.println("Prediction command");
+        System.out.println("Prediction command from receiver class");
     }
 
 }

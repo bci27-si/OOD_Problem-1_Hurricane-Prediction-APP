@@ -7,6 +7,6 @@ public class SaveResults {
     public void SaveResults() {
 
         // use io to save to  file. prob spreadsheet
-        System.out.println("Command for Saving results to file...");
+        System.out.println("Save Results command from receiver class");
     }
 }
